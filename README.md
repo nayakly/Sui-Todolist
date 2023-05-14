@@ -76,15 +76,15 @@ This function is used for testing purposes only and simply calls the **`init`** 
 
 To compile the contract, execute the following command in the root directory of the project:
 
-```rust
+    ```rust
     sui move build
-```
+    ```
 
 This will generate the compiled bytecode of the contract. To test the contract, there are test cases located in `./tests/todolist_tests.move`. You can run the tests by executing the following command in the root directory of the project:
 
-```rust
+    ```rust
     sui move test
-```
+    ```
 
 ## **Deployment**
 
